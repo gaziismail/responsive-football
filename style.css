@@ -193,6 +193,7 @@ footer styles
     margin-bottom: 20px;
 }
 .icon{
+    text-decoration: none;
     margin-right: 14px;
     width: 32px;
     height: 32px;
