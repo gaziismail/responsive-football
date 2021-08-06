@@ -120,6 +120,9 @@ highlights styles
     display: flex;
     margin: auto;
 }
+#highlights-detail{
+    width: 469px;
+}
 #highlights-detail h2{
     font-size: 48px;
 }
@@ -132,12 +135,39 @@ highlights styles
 
 
 /* -------------------
-footer styles
+bonus section styles
 ------------------- */
-#comment{
-    border: none;
-    border-bottom: 2px solid gray;
+#input-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
+.user-input-section{
+    margin-right: 100px;
+    text-align: center;
+}
+.input{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+#comment-btn{
+    margin-left: 20px;
+    border: none;
+    background-color: lightskyblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+#email-send-btn{
+    margin-left: 20px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: tomato;
+}
+
 
 
 /* -------------------
